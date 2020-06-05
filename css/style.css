@@ -9,7 +9,7 @@
   background-color: #d7dae5;
 }
 .footer {
-  background-color: #ff0;
+  background-color: #0C6291;
   color: #011;
 }
 .header {
@@ -21,7 +21,8 @@
 .main__content {
 }
 .main__content__item--1,
-.main__content__item--2 {
+.main__content__item--2,
+.main__content__item--3 {
   background-color: #284b63;
 }
 .main__sidebar {
@@ -29,5 +30,5 @@
 .main__sidebar__item--1,
 .main__sidebar__item--2,
 .main__sidebar__item--3 {
-  background-color: #00f;
+  background-color: #21295c;
 }
