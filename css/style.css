@@ -19,11 +19,15 @@
   background-color: #470024
 
 }
+.headerPhotoContainer{
+  background-color: green;
+}
 .main {
   
 }
 .main__content {
 }
+
 .main__content__item--1,
 .main__content__item--2,
 .main__content__item--3 {
