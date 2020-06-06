@@ -5,12 +5,13 @@
 }
 .container {
   display: grid;
-  grid-template-rows: 1fr 3fr 4fr 100px;
+  grid-template-rows: 1fr 1fr 100px;
   row-gap: 20px;
+  place-items: center;
 }
 .headerPhotoContainer {
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   height:500px;
 }
 .header{
@@ -22,8 +23,8 @@
   display:grid;
   max-width: 600px;
   max-height: 600px;
+  place-items: center;
   border-radius: 500px;
-  
 }
 .main {
   column-gap: 20px;
