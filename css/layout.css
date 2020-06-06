@@ -5,16 +5,23 @@
 }
 .container {
   display: grid;
-  grid-template-columns:1fr 3fr;
   grid-template-rows: 1fr 9fr 100px;
   width: 1fr;
   row-gap: 20px;
 }
 .header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   max-width: 400px;
-  padding-left: .50em;
+  padding-left: 1em;
   padding-top: .25em;
   border-radius: 20px;
+  text-align: center;
+}
+.cornerPhoto{
+  display:grid;
+  max-width: 300px;
+  max-height: 300px;
 }
 .main {
   column-gap: 20px;
