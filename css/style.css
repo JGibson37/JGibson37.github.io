@@ -19,7 +19,7 @@
 
 }
 .headerPhotoContainer{
-  background-color: green;
+  background-color: #d7dae5;
 }
 .main {
   
@@ -27,15 +27,8 @@
 .main__content {
 }
 
-.main__content__item--1,
-.main__content__item--2,
-.main__content__item--3 {
+.main_Projects, 
+.main_AboutMe
+{
   background-color: #284b63;
-}
-.main__sidebar {
-}
-.main__sidebar__item--1,
-.main__sidebar__item--2,
-.main__sidebar__item--3 {
-  background-color: #21295c;
 }
