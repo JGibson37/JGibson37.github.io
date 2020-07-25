@@ -9,106 +9,44 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <section>
-      <div class="headerPhotoContainer">
-        <div class="header">
-          <p>Jason Gibson</p>
-          <p>Full Stack Java Developer</p>
-          <nav>
-           <p><a href="mailto:Jason.Gibson15@yahoo.com"
-              >Jason.Gibson15@yahoo.com</a></p>
-          <p><a href="https://github.com/JGibson37">My GitHub Profile</a></p>
-          <p><a href="https://www.linkedin.com/in/jasongibson15/"
-              >My LinkedIn Profile</a></p>
-          <p><a href="#aboutMe">About Me</a></p>
-          <p><a href="#pastProjects">Past Projects</a></p>
-        </nav>
-        </div>
-        <div class="cornerPhoto">
-          <img
-            src="https://raw.githubusercontent.com/JGibson37/JGibson37.github.io/master/JasonG.jpg"
-            alt="Photo Unavailable"
-          />
-        </div>
-      </div>
-    </section>
-      <section>
-      <div class="main">
-        <div class="main__content">
-          <div class="main_AboutMe">
-            <span id="aboutMe"></span>
-            <h2>About Me</h2>
-            <p>&NonBreakingSpace;</p>
-            <p>
-              Hello, my name is Jason Gibson. I'm currently training to be a
-              Full Stack Java Developer at We Can Code It. My interest in
-              programming began in high school when I was in my schools FIRST
-              Robotics club, and studied Java at a career center. After that I
-              meddled in editing small projects throughout the years that never
-              really got too in depth. After spending some time in the workforce
-              I decided to study Java, and by extension programming, for a long
-              term career.
-            </p>
-            <p>I have knowledge of the following:</p>
-            <p>Java Syntax with OOP and TDD concepts</p>
-            <P>CSS including FlexBox, and FlexGrid</P>
-            <P>HTML</p>
-            <p>GitHub and GitBash</p>
-            <p>&NonBreakingSpace;</p>
-          </div>
-          <div class="main_Projects">
-            <span id="pastProjects"></span>
-            <h2>Past Projects</h2>
-            <article>
-              <p>&NonBreakingSpace;</p>
-            <p>
-              <a href="https://github.com/2020-Summer-Cohort/virtual-pets-amok-java-JGibson37" >
-                Virtual Pets Amok</a>
-            </p>
-            <p>&NonBreakingSpace;</p>
-            <p>
-              Virtual Pets Amok is a java program where you assume the role of a
-              pet shelter worker. It allows you to play with, feed, give water,
-              adopt out, and accept pets into the shelter. Some of the main
-              concepts used in the program include Object Oriented Programming,
-              Test Driven Development, ArrayLists,inheritance, and polymorphism. 
-              A screenshot below is directly from this project that shows some of the techniques used.
-            </p>
-            <p>&NonBreakingSpace;</p>
-            <img src="https://raw.githubusercontent.com/JGibson37/JGibson37.github.io/master/petsAmok.JPG" 
-            alt="Photo currently unavailable. Please check out my GitHub page for source code."/>
-            <p>&NonBreakingSpace;</p>
-          </article>
-          <article>
-              <a href="https://github.com/JGibson37/JGibson37.github.io">JGibson37.github.io</a>
-              <p>
-                This website is less of a past project and more of an evolving project. Here I showcase
-                my understanding of HTML and CSS concepts such as proper semantics, FlexBox, and FlexGrid. 
-              </p>
-              <p>&NonBreakingSpace;</p>
-              <img src="https://raw.githubusercontent.com/JGibson37/JGibson37.github.io/master/websiteCodePic.JPG" 
-              alt="Photo currently unavailable. Please check out my GitHub page for source code."/>
-              <p>&NonBreakingSpace;</p>
-            </article>
-            <article>
-              <a href="https://JGibson37.github.io"> Placeholder Project</a>
-              <p>&NonBreakingSpace;</p>
-              <p>
-                A future project will be added here once it is completed.
-              </p>
-              <img src="" alt="A future projects picture will be shown here"/>
-              <p>&NonBreakingSpace;</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="footer">
-        <H3> Webpage designed and coded by Jason Gibson.</H3>
-      </div>
-    </section>
-    </div>
+    <container class="page-container">
+      <container class="indent-page"></container>
+      <container class="inner-page-container">
+        <container class="nav-container">
+           <nav>
+             <ul>
+               <li>Home</li>
+               <li>Projects</li>
+             </ul>
+           </nav>
+           </container>
+           <container class= "about-me">
+             <container class= "about-me-box1">
+             <container class="about-me-box1-specs">
+              <ul>
+                <li>Jason Gibson</li>
+                <li>Full Stack Software Engineer</li>
+                <li>Languages: Java, Javascript, CSS, HTML </li>
+                <li>Visit me at:</li>
+                <li><a href="http://www.github.com/JGibson37"> <img class="github-img" src="images/gitHubPic.png"></a></li>
+                <li><img class="email-img" src="images/Yahoo.png"></li>
+                <li><a href="http://www.linkedin.com/in/jgibson37"><img class="linkedin-img" src="images/linkedinPic.png"></a></li>
+              </ul>
+             </container>
+             <container class="about-me-box1-img">
+              <img src="images/JasonG.jpg">
+             </container>
+            </container>
+             <container class="about-me-box2">
+              <p>About Me</p>
+              <p> I am a young software developer looking for opportunities to grow my language base and knowledge pool.</p>
+             </container>
+           </container>
+           <container class="projects-display">
+             <p>projects-display-container</p>
+           </container>
+         </container>
+      <container class="indent-page"></container>    
+    </container>
   </body>
 </html>

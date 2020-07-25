@@ -2,33 +2,24 @@
 
 * {
   font: 700 16px "Open Sans", sans-serif;
-  color: #eee;
-}
-.container {
-  background-color: #d7dae5;
-}
-.footer {
-  background-color: #0C6291;
-  color: #011;
-}
-.header {
-  background-color: #0C6291;
-}
-.cornerPhoto{
-  background-color: #470024
-
-}
-.headerPhotoContainer{
-  background-color: #d7dae5;
-}
-.main {
+  color: rgb(255, 255, 255);
   
 }
-.main__content {
+body {
+  background-color: black;
 }
-
-.main_Projects, 
-.main_AboutMe
-{
-  background-color: #284b63;
+.about-me{
+  background-color: green;
+}
+.indent-page {
+  background-color:yellow;
+}
+.nav-container{
+  background-color: blue;
+}
+.page-container{
+  background-color: red;
+}
+.projects-display{
+  background-color: purple;
 }

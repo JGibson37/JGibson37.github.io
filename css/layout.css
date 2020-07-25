@@ -3,51 +3,43 @@
   margin: 0;
   padding: 0;
 }
-.container {
-  display: grid;
-  grid-template-rows: 1fr;
-  row-gap: 20px;
+.about-me-box1{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
 }
-.headerPhotoContainer {
+.about-me-box1-img img {
+  max-width:300px;
+}
+.about-me-box2{
+  display:flex;
+  flex-flow:column wrap;
+  justify-items:center;
+}
+.email-img{
+  max-width:70px;
+}
+.nav-container ul{
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.github-img{
+  max-width: 50px;
+}
+.inner-page-container{
   display:grid;
-  grid-template-columns: 1fr 2fr;
-  height:500px;
 }
-img{
-  max-width: 59%;
-  max-height: auto;
-  border-radius: 100px;
+.linkedin-img{
+  max-width: 50px;
 }
-.header{
-  border-radius: 20px;
-  text-align: center;
-  max-width: 300px;
-  max-height: 500px;
-}
-.cornerPhoto{
+.page-container{
   display:grid;
-  max-width: 600px;
-  max-height: 600px;
-  place-items: center;
-  border-radius: 500px;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1fr;
 }
-.main {
-  display: grid;
-}
-.main__content {
-  display: grid;
-  grid-template-rows: 1fr;
-  row-gap: 10px;
-  text-align: center;
-}
-.main_AboutMe{
-  border-radius:20px
-}
-.main_Projects{
-  border-radius:30px;
-}
-.footer{
-  height: 25px;
-  border-radius:20px;
-  text-align:center;
+.projects-display img{
+  max-width: 800px;
+
 }
