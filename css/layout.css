@@ -9,7 +9,9 @@
   justify-content:center;
 }
 .about-me-box1-img img {
-  max-width:300px;
+  max-width:500px;
+  max-height:500px;
+  padding-left: 2em;
 }
 .about-me-box2{
   display:flex;
@@ -39,7 +41,13 @@
   grid-template-rows: 1fr 1fr;
   max-width: 1fr;
 }
+.projects-display{
+  display:flex;
+  flex-flow: column wrap;
+  text-align:center;
+}
 .projects-display img{
   max-width: 800px;
 
 }
+
