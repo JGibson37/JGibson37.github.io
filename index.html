@@ -7,6 +7,7 @@
     <title>Jason Gibson Portfolio</title>
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modal.css">
   </head>
   <body>
     <container class="page-container">
@@ -47,28 +48,39 @@
              </container>
            </container>
            <container class="projects-display">
-             <section>
-             <h2 class="project-title">Pets Amok Project</h2>
-             <p class="project-description">In Virutal Pets Amok I was tasked with creating a console app that would take
-               care of an animal similar to how a tamagatchi works. I used only the Java language, but used concepts such
-               as polymorphism to help achieve my goal.
-             </p>
-             <img class="project-1-display" src="images/petsAmok.jpg">
-             <h2 class="project-title">Portfolio Code</h2>
-             <p class="project-description"> My portfolio in the beginning was a very simple page with just some boxes and
-               color changes. As I progressed my HTML and CSS skills I rewrote my page to incorporate more of my design
-               ideas that I couldn't before. I used skills such as Flex-Box and Grid, as well as reasearching more advanced
-               ideas to help accomplish this.
-             </p>
-             <img class="project-2-display" src="images/websiteCodePic.JPG">
-             <h2 class="project-title">To Be Determined</h2>
-             <img class="project-3-display" src="images/petsAmok.jpg">
-             <h2 class="project-display">To Be Determined</h2>
-             <img class="project-4-display" src="images/websiteCodePic.JPG">
+             <h2 class="projects-header"> Most recent projects</h2>
+             <section class="project-grid">
+               <div class="project">
+                 <h2 class="project-title">Codey Vs Coder</h2>
+                <img class="project-display" id="codey" src="images/codeyFile.png">
+                <modal id="codey-modal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                  </div>
+                </modal>
+              </div>
+              <div class="project">
+                <h2 class="project-title">Artists & Albums</h2>
+                <img class="project-display" id="artists" src="images/artists.png">
+              </div>
+              <div class="project">
+                <h2 class="project-title">Portfolio</h2>
+                <img class="project-display" id="portfolio" src="images/portfolio.png">
+              </div>
+              <div class="project">
+                <h2 class="project-title">FizzBuzz Kata</h2>
+                <img class="project-display" id="kata" src="images/fizzBuzzKata.png">
+              </div>
+              <div class="project">
+                <h2 class="project-title">Virtual Pets</h2>
+                <img class="project-display" id="pet" src="images/virtualPet.png">
+              </div>
              </section>
            </container>
          </container>
       <container class="indent-page"></container>    
     </container>
+    <script src="./Javascript/projects.js" type="module"></script>
   </body>
 </html>
