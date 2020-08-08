@@ -12,23 +12,38 @@
 }
 
 .modal-content {
-  color:black;
-  background-color: #fefefe;
-  margin: 15% auto;
+  background-color: rgb(51, 204, 255, .9);
+  margin: 1em auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; 
+  width: 90vw;
+  height: 90vh; 
 }
 
-.close {
+.modal-image {
+  width: 100%;
+}
+
+.close-codey,
+.close-portfolio,
+.close-kata,
+.close-artists,
+.close-pet {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close-codey:hover,
+.close-codey:focus,
+.close-portfolio:hover,
+.close-portfolio:focus,
+.close-kata:hover,
+.close-kata:focus,
+.close-artists:hover,
+.close-artists:focus,
+.close-pet:hover,
+.close-pet:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;

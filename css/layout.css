@@ -56,10 +56,6 @@
   flex-flow: column wrap;
 }
 
-.projects-display img{
-  max-width: 800px;
-}
-
 .project-grid {
   display: grid;
   justify-content: center;
@@ -72,7 +68,7 @@
   justify-content: center;
 }
 
-.project img {
+.project-display {
   width: 200px;
   height: 400px;
   object-fit: none;

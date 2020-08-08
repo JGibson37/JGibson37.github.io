@@ -5,7 +5,7 @@ const addEventListeners = () =>{
     kata.addEventListener("click", () =>{
         let kataModal = document.getElementById("kata-modal")
         kataModal.style.display = "block"
-        let span = document.getElementsByClassName("close")[0];
+        let span = document.getElementsByClassName("close-kata")[0];
         span.addEventListener("click", () =>{
             kataModal.style.display= "none"
         })
@@ -14,7 +14,7 @@ const addEventListeners = () =>{
     virutalPet.addEventListener("click", () =>{
         let petModal = document.getElementById("pet-modal")
         petModal.style.display = "block"
-        let span = document.getElementsByClassName("close")[0];
+        let span = document.getElementsByClassName("close-pet")[0];
         span.addEventListener("click", () =>{
             petModal.style.display= "none"
         })
@@ -23,7 +23,7 @@ const addEventListeners = () =>{
     codey.addEventListener("click", () =>{
         let codeyModal = document.getElementById("codey-modal")
         codeyModal.style.display = "block"
-        let span = document.getElementsByClassName("close")[0];
+        let span = document.getElementsByClassName("close-codey")[0];
         span.addEventListener("click", () =>{
             codeyModal.style.display= "none"
         })
@@ -32,7 +32,7 @@ const addEventListeners = () =>{
     portfolio.addEventListener("click", () =>{
         let portfolioModal = document.getElementById("portfolio-modal")
         portfolioModal.style.display = "block"
-        let span = document.getElementsByClassName("close")[0];
+        let span = document.getElementsByClassName("close-portfolio")[0];
         span.addEventListener("click", () =>{
             portfolioModal.style.display= "none"
         })
@@ -41,7 +41,7 @@ const addEventListeners = () =>{
     artists.addEventListener("click", () =>{
         let artistsModal = document.getElementById("artists-modal")
         artistsModal.style.display = "block"
-        let span = document.getElementsByClassName("close")[0];
+        let span = document.getElementsByClassName("close-artists")[0];
         span.addEventListener("click", () =>{
             artistsModal.style.display= "none"
         })
