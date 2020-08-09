@@ -7,18 +7,7 @@
 body {
   background-color: black;
 }
-.about-me{
-  background-color: green;
-}
-.indent-page {
-  background-color:yellow;
-}
-.nav-container{
-  background-color: blue;
-}
+
 .page-container{
-  background-color: red;
-}
-.projects-display{
-  background-color: purple;
+  background-color: rgba(22, 28, 45)
 }

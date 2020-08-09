@@ -11,47 +11,54 @@
   </head>
   <body>
     <container class="page-container">
-      <container class="indent-page"></container>
+      <container class="indent-page">
+        <canvas class="canvas" id="canv"/>
+      </container>
       <container class="inner-page-container">
         <container class="nav-container">
            <nav>
              <ul>
-               <li>Home</li>
-               <li>Projects</li>
+               <p>Home</p>
+               <p>Projects</p>
+               <p>Resume</p>
              </ul>
            </nav>
            </container>
            <container class= "about-me">
              <container class= "about-me-box1">
              <container class="about-me-box1-specs">
-              <ul>
-                <li>Jason Gibson</li>
-                <li>Full Stack Software Engineer</li>
-                <li>Languages: Java, Javascript, CSS, HTML </li>
-                <li>Visit me at:</li>
-                <li><a href="http://www.github.com/JGibson37"> <img class="github-img" src="files/gitHubPic.png"></a></li>
-                <li><img class="email-img" src="files/Yahoo.png"></li>
-                <li><a href="http://www.linkedin.com/in/jgibson37"><img class="linkedin-img" src="files/linkedinPic.png"></a></li>
-              </ul>
+               <container class="links-container">
+                <a href="http://www.github.com/JGibson37"> <img class="github-img" src="files/gitHubPic.png"></a>
+                <img class="email-img" src="files/emailPic.png">
+                <a href="http://www.linkedin.com/in/jgibson37"><img class="linkedin-img" src="files/linkedinPic.png"></a>
+              </container>
+                <container class="about-me-box2">
+                  <p>About Me</p>
+                  <p> I am a young software developer looking for opportunities to grow my language base and knowledge pool.
+                    My first introduction to programming was self taught. I was working with a bot that was designed to play the game, 
+                    Diablo II, for me. Once I got into highschool I ended up joining the FIRST Robotics team. Every year, the company
+                    FIRST Robotics, releases a video that describes a game to be played by robots. They are designed and 
+                    programmed with the help of Engineers that work with the schools team of students. After everything is said and
+                    done you then pit your robot against schools from all around the country.
+                  </p>
+                 </container>
              </container>
              <container class="about-me-box1-img">
-              <img src="files/JasonG.jpg">
+              <img class="about-me-img" src="files/JasonG.jpg">
              </container>
             </container>
-             <container class="about-me-box2">
-              <p>About Me</p>
-              <p> I am a young software developer looking for opportunities to grow my language base and knowledge pool.
-                My first introduction to programming was self taught. I working with a bot that was designed to play the game, 
-                Diablo II, for me. Once I got into highschool I ended up joining the FIRST Robotics team. Every year, the company
-                FIRST Robotics, releases a video that describes a game played by robots. They are designed and programmed with 
-              </p>
-             </container>
            </container>
            <container class="projects-display">
-             <h2 class="projects-header"> Most recent projects</h2>
+             <container class=projects-header>
+              <h2 class="project-header-h2" > Most recent projects:</h2>
+              <p class="project-header-info">
+               Click the header to view my repository, or click the photo for a description of the project, 
+               and a snapshot of the code used in the project.
+             </p>
+             </container>
              <section class="project-grid">
                <div class="project">
-                 <h2 class="project-title">Codey Vs Coder</h2>
+                 <h2 class="project-title"><a href="https://github.com/2020-Summer-Cohort/super-code-jr">Codey Vs Coder</a></h2>
                 <img class="project-display" id="codey" src="files/codeyFile.png">
                 <modal id="codey-modal" class="modal">
                   <div class="modal-content">
@@ -68,7 +75,7 @@
                 </modal>
               </div>
               <div class="project">
-                <h2 class="project-title">Artists & Albums</h2>
+                <h2 class="project-title"><a href="https://github.com/JGibson37/Artists-Albums-Songs">Artists & Albums </a></h2>
                 <img class="project-display" id="artists" src="files/artists.png">
                 <modal id="artists-modal" class="modal">
                   <div class="modal-content">
@@ -83,7 +90,7 @@
                 </modal>
               </div>
               <div class="project">
-                <h2 class="project-title">Portfolio</h2>
+                <h2 class="project-title"><a href="https://github.com/JGibson37/JGibson37.github.io">Portfolio</a></h2>
                 <img class="project-display" id="portfolio" src="files/portfolio.png">
                 <modal id="portfolio-modal" class="modal">
                   <div class="modal-content">
@@ -99,7 +106,7 @@
                 </modal>
               </div>
               <div class="project">
-                <h2 class="project-title">Trio of Katas</h2>
+                <h2 class="project-title"><a href="https://github.com/JGibson37/Trio-Java-Katas">Katas</a></h2>
                 <img class="project-display" id="kata" src="files/fizzBuzzKata.png">
                 <modal id="kata-modal" class="modal">
                   <div class="modal-content">
@@ -114,7 +121,7 @@
                 </modal>
               </div>
               <div class="project">
-                <h2 class="project-title">Virtual Pets</h2>
+                <h2 class="project-title"><a href="https://github.com/JGibson37/VirtualPetsAmok">Virtual Pets</a></h2>
                 <img class="project-display" id="pet" src="files/virtualPet.png">
                 <modal id="pet-modal" class="modal">
                   <div class="modal-content">
@@ -129,12 +136,15 @@
              </section>
            </container>
            <container class="resume container">
-            <h2>My resume</h2>
+            <h2 class="resume-h2">My Resume</h2>
             <embed src="files/JasonGibsonResume.pdf" width="100%" height="100%">
            </container>
          </container>
-      <container class="indent-page"></container>    
+      <container class="indent-page">
+        <canvas class="canvas" id="canv2"/>
+      </container>    
     </container>
     <script src="./Javascript/projects.js" type="module"></script>
+    <script src="Javascript/matrixEffect.js" type="module"></script>
   </body>
 </html>
