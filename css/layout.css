@@ -42,20 +42,13 @@
   height: 100%;
 }
 
-.links-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.nav-container ul{
-  display:flex;
-  justify-content: center;
-  justify-content: space-around;
+.email-img {
+  max-width: 80px;
 }
 
 .inner-page-container{
   display:grid;
-  grid-template-rows: 1.5em 30em 1fr 2fr
+  grid-template-rows: 4em 30em 1fr 2fr
 }
 
 .github-img {
@@ -68,8 +61,23 @@
 width:60px;
 }
 
-.email-img {
-  max-width: 80px;
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar{
+  display:flex;
+  justify-content: space-around;
+  padding-top: 1em;
+}
+
+.nav-bar p {
+  font-size: x-large;
+}
+
+.nav-container {
+  padding-bottom: 2em;
 }
 
 .page-container{

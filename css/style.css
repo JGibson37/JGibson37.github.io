@@ -8,6 +8,9 @@ body {
   background-color: black;
 }
 
+.nav-container {
+  background-color: rgba( 22, 28, 75)
+}
 .page-container{
   background-color: rgba(22, 28, 45)
 }
