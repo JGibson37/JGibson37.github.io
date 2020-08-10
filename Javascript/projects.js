@@ -1,4 +1,7 @@
-
+const email= document.querySelector(".email-img")
+email.addEventListener("click", () => {
+    alert("Please send your email to Jason.Gibson15@yahoo.com")
+})
 
 const addEventListeners = () =>{
     const kata = document.getElementById("kata")
