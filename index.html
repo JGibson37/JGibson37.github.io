@@ -17,18 +17,17 @@
       <container class="inner-page-container">
         <container class="nav-container">
            <nav class="nav-bar">
-               <p>Home</p>
-               <p>Projects</p>
-               <p>Resume</p>
+               <a href="#projects-display">Projects</a>
+               <a href="#resume-container">Resume</a>
            </nav>
            </container>
            <container class= "about-me">
              <container class= "about-me-box1">
              <container class="about-me-box1-specs">
                <container class="links-container">
-                <a href="http://www.github.com/JGibson37"> <img class="github-img" src="files/gitHubPic.png"></a>
                 <img class="email-img" src="files/emailPic.png">
-                <a href="http://www.linkedin.com/in/jgibson37"><img class="linkedin-img" src="files/linkedinPic.png"></a>
+                <a href="http://www.linkedin.com/in/jgibson37"><img class="linkedin-img" src="files/linkedInPic.png"></a>
+                <a href="http://www.github.com/JGibson37"> <img class="github-img" src="files/gitHubPic.png"></a>
               </container>
                 <container class="about-me-box2">
                   <p>About Me</p>
@@ -46,7 +45,7 @@
              </container>
             </container>
            </container>
-           <container class="projects-display">
+           <container class="projects-display" id="projects-display">
              <container class=projects-header>
               <h2 class="project-header-h2" > Most recent projects:</h2>
               <p class="project-header-info">
@@ -99,7 +98,9 @@
                       and improve the look of my portfolio until what you are seeing now. Here is just some of the code I wrote
                       to bring this project to life.
                     </p>
-                    <img class="modal-image" src="files/portfolioFull.png">
+                    <container class="modal-img-container">
+                      <img class="modal-image" src="files/portfolioFull.png">
+                    </container>
                   </div>
                 </modal>
               </div>
@@ -133,7 +134,7 @@
               </div>
              </section>
            </container>
-           <container class="resume container">
+           <container class="resume-container" id="resume-container">
             <h2 class="resume-h2">My Resume</h2>
             <embed src="files/JasonGibsonResume.pdf" width="100%" height="100%">
            </container>
