@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 
 class DisplayPage extends Component {
 
@@ -8,6 +9,7 @@ class DisplayPage extends Component {
         return (
             <div className="container">
                 <div className="title">DisplayPage</div>
+                <NavBar />
                 <Header />
             </div>
         )

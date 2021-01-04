@@ -3,6 +3,7 @@ import emailBox from "./files/emailPic.png";
 import gitBox from "./files/gitHubPic.png";
 import linkedInBox from "./files/linkedInPic.png";
 import "./css/layout.css";
+import "./css/style.css";
 
 class Header extends Component {
     render() {
