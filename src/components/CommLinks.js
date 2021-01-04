@@ -5,7 +5,7 @@ import linkedInBox from "./files/linkedInPic.png";
 import "./css/layout.css";
 import "./css/style.css";
 
-class Header extends Component {
+class CommLinks extends Component {
     render() {
         return (
             <container className="links-container">
@@ -21,4 +21,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default CommLinks;

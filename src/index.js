@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Header from "./components/Header";
+import CommLinks from "./components/CommLinks";
 import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
 
 class DisplayPage extends Component {
 
     render(){
         return (
             <div className="container">
-                <div className="title">DisplayPage</div>
                 <NavBar />
-                <Header />
+                <AboutMe />
             </div>
         )
     }
