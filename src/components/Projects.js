@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-// import ProjectOne from "./components/ProjectOne.js";
+import ProjectOne from "./ProjectOne.js";
+import ProjectTwo from "./ProjectTwo.js"
 import "./css/layout.css";
 import "./css/style.css";
 
@@ -14,7 +15,10 @@ class Projects extends Component {
                     and a snapshot of the code used in the project.
                     </p>
                 </container>
-                {/* <ProjectOne /> */}
+                <section class="project-grid">
+                    <ProjectOne />
+                    <ProjectTwo />
+                </section>    
             </container>
         )
     }
