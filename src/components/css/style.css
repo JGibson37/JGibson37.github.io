@@ -9,8 +9,11 @@ body {
 }
 
 .nav-container {
-  background-color: rgba( 22, 28, 75)
+  background-color: rgba( 22, 28, 75);
 }
-.page-container{
-  background-color: rgba(22, 28, 45)
+.inner-page-container{
+  background-color: #3C3C3C;
+}
+.indent-page{
+    background-color:#1A1A1A;
 }
