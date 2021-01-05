@@ -3,6 +3,7 @@ import AboutMeImg from "./files/JasonG.jpg";
 import emailBox from "./files/emailPic.png";
 import gitBox from "./files/gitHubPic.png";
 import linkedInBox from "./files/linkedInPic.png";
+import CommLinks from "./CommLinks";
 import "./css/layout.css";
 import "./css/style.css";
 
@@ -12,16 +13,8 @@ class AboutMe extends Component {
             <container class= "about-me">
             <container class= "about-me-box1">
             <container class="about-me-box1-specs">
-            <container className="links-container">
-                <img className="email-img" src={emailBox}/>
-                <a href="http://www.linkedin.com/in/jgibson37">
-                    <img className="linkedin-img" src={linkedInBox}></img>
-                </a>
-                <a href="http://www.github.com/JGibson37"> 
-                    <img className="github-img" src={gitBox}></img>
-                </a>
-            </container>
-               <container class="about-me-box2">
+                <CommLinks />
+                <container class="about-me-box2">
                  <p class="about-me">About Me</p>
                  <p class="about-me-text"> I am a young software developer looking for opportunities to grow my language base and knowledge pool.
                    My first introduction to programming was self taught. I was working with a bot that was designed to play the game, 
