@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import CommLinks from "./components/CommLinks";
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import ProjectOne from "./components/ProjectOne"
 
 class DisplayPage extends Component {
 
@@ -11,6 +13,7 @@ class DisplayPage extends Component {
             <div className="container">
                 <NavBar />
                 <AboutMe />
+                <Projects />
             </div>
         )
     }
