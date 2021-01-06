@@ -57,7 +57,7 @@
 
 .inner-page-container{
   display:grid;
-  grid-template-rows: 4em 30em 1fr 2fr
+  grid-template-rows: 4em 30em .5fr 1fr
 }
 
 .github-img {
@@ -139,12 +139,13 @@ width:60px;
   justify-content: center;
 }
 
+.resume-container{
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
 .resume-h2{
   display:flex;
   justify-content:center;
   font-size: larger;
-}
-.resume-rules{
-  display:flex;
-  justify-content: center;
 }
