@@ -144,3 +144,7 @@ width:60px;
   justify-content:center;
   font-size: larger;
 }
+.resume-rules{
+  display:flex;
+  justify-content: center;
+}

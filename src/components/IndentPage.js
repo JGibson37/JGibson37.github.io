@@ -5,8 +5,7 @@ import "./css/style.css";
 class IndentPage extends Component {
     render() {
         return (
-            <container class="indent-page">
-            </container>
+            <div className="indent-page"/>
         )
     }
 }

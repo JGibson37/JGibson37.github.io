@@ -8,12 +8,12 @@ import "./css/modal.css";
 class ProjectOne extends Component {
     render() {
         return (
-            <div class="project">
-                <h2 class="project-title"><a href="https://github.com/2020-Summer-Cohort/super-code-jr">Codey Vs Coder</a></h2>
-                <img class="project-display" id="codey" src={codeyFile}/>
-                <modal id="codey-modal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-codey">&times;</span>
+            <div className="project">
+                <h2 className="project-title"><a href="https://github.com/2020-Summer-Cohort/super-code-jr">Codey Vs Coder</a></h2>
+                <img className="project-display" id="codey" src={codeyFile} alt="codeyFile"/>
+                <modal id="codey-modal" className="modal">
+                    <div className="modal-content">
+                        <span className="close-codey">&times;</span>
                         <p>
                             Codey Vs. Coder was the final capstone project of my cohort that my team desgined. It is a game where you
                             debug the code of an annoying AI who thinks he is all that. It has a back end API that reads questions from
@@ -21,8 +21,8 @@ class ProjectOne extends Component {
                             onscreen in an exciting way. This project was the robust, encompassing everything I learned, and was the most 
                             fun project overall even though it was such high-pressure. 
                         </p>
-                        <container class="modal-img-container">
-                            <img class="modal-image" src={codeyFull}/>
+                        <container className="modal-img-container">
+                            <img className="modal-image" src={codeyFull} alt="codeyFull"/>
                         </container>
                     </div>
                 </modal>

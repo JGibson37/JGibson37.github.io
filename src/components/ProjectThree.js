@@ -8,20 +8,20 @@ import "./css/modal.css";
 class ProjectThree extends Component {
     render() {
         return (
-            <div class="project">
-                <h2 class="project-title"><a href="https://github.com/JGibson37/JGibson37.github.io">Portfolio</a></h2>
-                <img class="project-display" id="portfolio" src={portfolioFile}/>
-                <modal id="portfolio-modal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-portfolio">&times;</span>
+            <div className="project">
+                <h2 className="project-title"><a href="https://github.com/JGibson37/JGibson37.github.io">Portfolio</a></h2>
+                <img className="project-display" id="portfolio" src={portfolioFile} alt="portfolioFile"/>
+                <modal id="portfolio-modal" className="modal">
+                    <div className="modal-content">
+                        <span className="close-portfolio">&times;</span>
                         <p>
                             My personal portfolio project was a project started about halfway through my cohort, but became an
                             ongoing project for the rest of the cohort. Long after my portfolio was due I continued to make changes
                             and improve the look of my portfolio until what you are seeing now. Here is just some of the code I wrote
                             to bring this project to life.
                         </p>
-                        <container class="modal-img-container">
-                        <img class="modal-image" src={portfolioFull}/>
+                        <container className="modal-img-container">
+                        <img className="modal-image" src={portfolioFull} alt="portfolioFull"/>
                         </container>
                     </div>
                 </modal>

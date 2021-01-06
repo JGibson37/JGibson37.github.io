@@ -9,12 +9,12 @@ class CommLinks extends Component {
     render() {
         return (
             <container className="links-container">
-                <img className="email-img" src={emailBox}/>
+                <img className="email-img" src={emailBox} alt="Email"/>
                 <a href="http://www.linkedin.com/in/jgibson37">
-                    <img className="linkedin-img" src={linkedInBox}></img>
+                    <img className="linkedin-img" src={linkedInBox} alt="Linked-In"/>
                 </a>
                 <a href="http://www.github.com/JGibson37"> 
-                    <img className="github-img" src={gitBox}></img>
+                    <img className="github-img" src={gitBox} alt="Github"/>
                 </a>
             </container>
         )

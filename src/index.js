@@ -12,7 +12,7 @@ class DisplayPage extends Component {
         return (
             <container className="page-container">
                 <IndentPage />
-                <container class="inner-page-container">
+                <container className="inner-page-container">
                     <NavBar />
                     <AboutMe />
                     <Projects />
