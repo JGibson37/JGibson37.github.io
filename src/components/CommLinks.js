@@ -6,10 +6,15 @@ import "./css/layout.css";
 import "./css/style.css";
 
 class CommLinks extends Component {
+
+    emailClick = () => {
+        alert("Please send emails to Jason.Gibson15@yahoo.com");
+    }
+
     render() {
         return (
             <container className="links-container">
-                <img className="email-img" src={emailBox} alt="Email"/>
+                <img className="email-img" src={emailBox} alt="Email" onClick={this.emailClick}/>
                 <a href="http://www.linkedin.com/in/jgibson37">
                     <img className="linkedin-img" src={linkedInBox} alt="Linked-In"/>
                 </a>

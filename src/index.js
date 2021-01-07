@@ -20,6 +20,7 @@ class DisplayPage extends Component {
                 </container>
                 <IndentPage />
             </container>
+            
         )
     }
 }
