@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import portfolioFile from "./files/portfolio.png";
-import portfolioFull from "./files/portfolioFull.png";
+import portfolioFile from "./files/react.png";
+import portfolioFull from "./files/reactFull.png";
 import "./css/layout.css";
 import "./css/style.css";
 import "./css/modal.css";
