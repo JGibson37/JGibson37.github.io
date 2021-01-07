@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JGibson37.github.io/static/css/main.8197f414.chunk.css",
-    "main.js": "/JGibson37.github.io/static/js/main.7e60c9e6.chunk.js",
-    "main.js.map": "/JGibson37.github.io/static/js/main.7e60c9e6.chunk.js.map",
+    "main.js": "/JGibson37.github.io/static/js/main.f45b6270.chunk.js",
+    "main.js.map": "/JGibson37.github.io/static/js/main.f45b6270.chunk.js.map",
     "runtime-main.js": "/JGibson37.github.io/static/js/runtime-main.23a4e13d.js",
     "runtime-main.js.map": "/JGibson37.github.io/static/js/runtime-main.23a4e13d.js.map",
     "static/js/2.ad687361.chunk.js": "/JGibson37.github.io/static/js/2.ad687361.chunk.js",
@@ -19,8 +19,8 @@
     "static/media/emailPic.22ee2740.png": "/JGibson37.github.io/static/media/emailPic.22ee2740.png",
     "static/media/fizzBuzzKata.07ac160e.png": "/JGibson37.github.io/static/media/fizzBuzzKata.07ac160e.png",
     "static/media/petsAmokFull.bc0913ed.png": "/JGibson37.github.io/static/media/petsAmokFull.bc0913ed.png",
-    "static/media/portfolio.332859d4.png": "/JGibson37.github.io/static/media/portfolio.332859d4.png",
-    "static/media/portfolioFull.ca2638d4.png": "/JGibson37.github.io/static/media/portfolioFull.ca2638d4.png",
+    "static/media/react.4e98f34f.png": "/JGibson37.github.io/static/media/react.4e98f34f.png",
+    "static/media/reactFull.d2405219.png": "/JGibson37.github.io/static/media/reactFull.d2405219.png",
     "static/media/trianglesFull.31bfb2fd.png": "/JGibson37.github.io/static/media/trianglesFull.31bfb2fd.png",
     "static/media/virtualPet.d0c7f9d5.png": "/JGibson37.github.io/static/media/virtualPet.d0c7f9d5.png"
   },
@@ -28,6 +28,6 @@
     "static/js/runtime-main.23a4e13d.js",
     "static/js/2.ad687361.chunk.js",
     "static/css/main.8197f414.chunk.css",
-    "static/js/main.7e60c9e6.chunk.js"
+    "static/js/main.f45b6270.chunk.js"
   ]
 }
