@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/JGibson37.github.io/static/css/main.e31e3417.chunk.css",
+    "main.js": "/JGibson37.github.io/static/js/main.c5caa806.chunk.js",
+    "main.js.map": "/JGibson37.github.io/static/js/main.c5caa806.chunk.js.map",
+    "runtime-main.js": "/JGibson37.github.io/static/js/runtime-main.23a4e13d.js",
+    "runtime-main.js.map": "/JGibson37.github.io/static/js/runtime-main.23a4e13d.js.map",
+    "static/js/2.4390adca.chunk.js": "/JGibson37.github.io/static/js/2.4390adca.chunk.js",
+    "static/js/2.4390adca.chunk.js.map": "/JGibson37.github.io/static/js/2.4390adca.chunk.js.map",
+    "index.html": "/JGibson37.github.io/index.html",
+    "static/css/main.e31e3417.chunk.css.map": "/JGibson37.github.io/static/css/main.e31e3417.chunk.css.map",
+    "static/js/2.4390adca.chunk.js.LICENSE.txt": "/JGibson37.github.io/static/js/2.4390adca.chunk.js.LICENSE.txt",
+    "static/media/JasonG.743d7b80.jpg": "/JGibson37.github.io/static/media/JasonG.743d7b80.jpg",
+    "static/media/ResumePic.e8ffbcda.png": "/JGibson37.github.io/static/media/ResumePic.e8ffbcda.png",
+    "static/media/artists.53273d0c.png": "/JGibson37.github.io/static/media/artists.53273d0c.png",
+    "static/media/artistsFull.80edf35e.png": "/JGibson37.github.io/static/media/artistsFull.80edf35e.png",
+    "static/media/codeyFile.21e17c39.png": "/JGibson37.github.io/static/media/codeyFile.21e17c39.png",
+    "static/media/codeyFull.811955c9.png": "/JGibson37.github.io/static/media/codeyFull.811955c9.png",
+    "static/media/emailPic.22ee2740.png": "/JGibson37.github.io/static/media/emailPic.22ee2740.png",
+    "static/media/fizzBuzzKata.07ac160e.png": "/JGibson37.github.io/static/media/fizzBuzzKata.07ac160e.png",
+    "static/media/petsAmokFull.bc0913ed.png": "/JGibson37.github.io/static/media/petsAmokFull.bc0913ed.png",
+    "static/media/react.4e98f34f.png": "/JGibson37.github.io/static/media/react.4e98f34f.png",
+    "static/media/reactFull.d2405219.png": "/JGibson37.github.io/static/media/reactFull.d2405219.png",
+    "static/media/trianglesFull.31bfb2fd.png": "/JGibson37.github.io/static/media/trianglesFull.31bfb2fd.png",
+    "static/media/virtualPet.d0c7f9d5.png": "/JGibson37.github.io/static/media/virtualPet.d0c7f9d5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23a4e13d.js",
+    "static/js/2.4390adca.chunk.js",
+    "static/css/main.e31e3417.chunk.css",
+    "static/js/main.c5caa806.chunk.js"
+  ]
+}
