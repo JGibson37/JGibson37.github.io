@@ -41,13 +41,13 @@ function ProjectThree() {
                 bring this project to life.
               </p>
               <br></br>
-              <container className="modal-img-container">
+              <div className="modal-img-container">
                 <img
                   className="modal-image"
                   src={portfolioFull}
                   alt="portfolioFull"
                 />
-              </container>
+              </div>
             </div>
           </div>
         </div>

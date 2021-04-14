@@ -7,22 +7,20 @@ import Resume from "./components/Resume";
 import IndentPage from "./components/IndentPage";
 
 class DisplayPage extends Component {
-
-    render(){
-        return (
-            <container className="page-container">
-                <IndentPage />
-                <container className="inner-page-container">
-                    <NavBar />
-                    <AboutMe />
-                    <Projects />
-                    <Resume />
-                </container>
-                <IndentPage />
-            </container>
-            
-        )
-    }
+  render() {
+    return (
+      <div className="page-container">
+        <IndentPage />
+        <div className="inner-page-container">
+          <NavBar />
+          <AboutMe />
+          <Projects />
+          <Resume />
+        </div>
+        <IndentPage />
+      </div>
+    );
+  }
 }
 
 ReactDOM.render(<DisplayPage />, document.getElementById("root"));

@@ -40,13 +40,13 @@ function ProjectFour() {
                 Triangle sorter, which was one of my favorites.
               </p>
               <br></br>
-              <container className="modal-img-container">
+              <div className="modal-img-container">
                 <img
                   className="modal-image"
                   src={fizzBuzzFull}
                   alt="fizzBuzzFull"
                 />
-              </container>
+              </div>
             </div>
           </div>
         </div>

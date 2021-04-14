@@ -1,7 +1,7 @@
 import React from "react";
+import Modal from "./Modal";
 import artistsFile from "./files/artists.png";
 import artistsFull from "./files/artistsFull.png";
-import Modal from "./Modal";
 import "./css/layout.css";
 import "./css/style.css";
 import "./css/modal.css";
@@ -45,13 +45,13 @@ function ProjectTwo() {
                 artists and albums.
               </p>
               <br></br>
-              <container className="modal-img-container">
+              <div className="modal-img-container">
                 <img
                   className="modal-image"
                   src={artistsFull}
                   alt="artistsFull"
                 />
-              </container>
+              </div>
             </div>
           </div>
         </div>

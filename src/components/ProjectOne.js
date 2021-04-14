@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Modal from "./Modal";
 import codeyFile from "./files/codeyFile.png";
 import codeyFull from "./files/codeyFull.png";
@@ -45,9 +45,9 @@ function ProjectOne() {
                 fun project overall even though it was such high-pressure.
               </p>
               <br></br>
-              <container className="modal-img-container">
+              <div className="modal-img-container">
                 <img className="modal-image" src={codeyFull} alt="codeyFull" />
-              </container>
+              </div>
             </div>
           </div>
         </div>

@@ -38,9 +38,9 @@ function ProjectFive() {
                 OOP, inheritance, and polymorphism.
               </p>
               <br></br>
-              <container className="modal-img-container">
+              <div className="modal-img-container">
                 <img className="modal-image" src={petFull} alt="petFull" />
-              </container>
+              </div>
             </div>
           </div>
         </div>
