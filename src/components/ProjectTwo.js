@@ -17,7 +17,7 @@ function ProjectTwo() {
     <div className="project">
       <h2 className="project-title">
         <a href="https://github.com/JGibson37/Artists-Albums-Songs">
-          Artists & Albums
+          Artists and Albums
         </a>
       </h2>
       <img
@@ -28,12 +28,12 @@ function ProjectTwo() {
         onClick={openModal}
       />
       <Modal id="artists-modal" className="modal" ref={modalRef}>
-        <div className={"modal-content"}>
+        <div className="modal-content">
           <div
-            className={"modal-backdrop"}
+            className="modal-backdrop"
             onClick={() => modalRef.current.close()}
           >
-            <div className={"modal-box"}>
+            <div className="modal-box">
               <p>
                 Artists, Albums, Songs was my introduction project to HTML
                 javascript and single page web design. While complicated at

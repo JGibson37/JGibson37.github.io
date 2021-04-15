@@ -26,12 +26,12 @@ function ProjectFive() {
         onClick={openModal}
       />
       <Modal id="pet-modal" className="modal" ref={modalRef}>
-        <div className={"modal-content"}>
+        <div className="modal-content">
           <div
-            className={"modal-backdrop"}
+            className="modal-backdrop"
             onClick={() => modalRef.current.close()}
           >
-            <div className={"modal-box"}>
+            <div className="modal-box">
               <p>
                 Virtual Pets Amok is a tamagatchi style console app where you
                 take care of many pets inside a pet shelter. It is very heavy on

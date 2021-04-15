@@ -19,13 +19,13 @@ class Projects extends Component {
             project.
           </p>
         </div>
-        <section className="project-grid">
+        <div className="project-grid">
           <ProjectOne />
           <ProjectTwo />
           <ProjectThree />
           <ProjectFour />
           <ProjectFive />
-        </section>
+        </div>
       </div>
     );
   }

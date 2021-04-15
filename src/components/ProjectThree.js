@@ -26,12 +26,12 @@ function ProjectThree() {
         onClick={openModal}
       />
       <Modal id="portfolio-modal" className="modal" ref={modalRef}>
-        <div className={"modal-content"}>
+        <div className="modal-content">
           <div
-            className={"modal-backdrop"}
+            className="modal-backdrop"
             onClick={() => modalRef.current.close()}
           >
-            <div className={"modal-box"}>
+            <div className="modal-box">
               <p>
                 My personal portfolio project was a project started about
                 halfway through my cohort, but became an ongoing project for the

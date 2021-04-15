@@ -28,12 +28,12 @@ function ProjectOne() {
         alt="codeyFile"
       />
       <Modal id="portfolio-modal" className="modal" ref={modalRef}>
-        <div className={"modal-content"}>
+        <div className="modal-content">
           <div
-            className={"modal-backdrop"}
+            className="modal-backdrop"
             onClick={() => modalRef.current.close()}
           >
-            <div className={"modal-box"}>
+            <div className="modal-box">
               <p>
                 Codey Vs. Coder was the final capstone project of my cohort that
                 was designed by myself and my team. It is a game where you debug

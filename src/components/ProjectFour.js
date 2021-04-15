@@ -26,12 +26,12 @@ function ProjectFour() {
         onClick={openModal}
       />
       <Modal id="kata-modal" className="modal" ref={modalRef}>
-        <div className={"modal-content"}>
+        <div className="modal-content">
           <div
-            className={"modal-backdrop"}
+            className="modal-backdrop"
             onClick={() => modalRef.current.close()}
           >
-            <div className={"modal-box"}>
+            <div className="modal-box">
               <p>
                 I completed a trio of well known java katas. FizzBuzz, Triangle
                 Sorter, and Babysitter. Because they are so known, I also
