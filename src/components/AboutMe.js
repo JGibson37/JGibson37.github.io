@@ -14,7 +14,6 @@ class AboutMe extends Component {
             <div className="about-me-box2">
               <p className="about-me">About Me</p>
               <p className="about-me-text">
-                {" "}
                 I am a young software developer looking for opportunities to
                 grow my language base and knowledge pool. My first introduction
                 to programming was self taught. I was working with a bot that
